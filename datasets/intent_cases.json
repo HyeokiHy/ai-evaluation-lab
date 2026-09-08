@@ -1,0 +1,38 @@
+[
+  {
+    "id": "INTENT-001",
+    "input": "상품을 환불하고 싶어요",
+    "expected": "refund",
+    "evaluator": "exact_match"
+  },
+  {
+    "id": "INTENT-002",
+    "input": "배송이 언제 오나요?",
+    "expected": "delivery",
+    "evaluator": "exact_match"
+  },
+  {
+    "id": "INTENT-003",
+    "input": "비밀번호를 잊어버렸어요",
+    "expected": "account",
+    "evaluator": "exact_match"
+  },
+  {
+    "id": "INTENT-004",
+    "input": "오늘 날씨가 좋네요",
+    "expected": "unknown",
+    "evaluator": "exact_match"
+  },
+  {
+    "id": "INTENT-005",
+    "input": "환불 정책이 궁금해요. 배송은 언제 오나요?",
+    "expected": "ambiguous",
+    "evaluator": "exact_match"
+  },
+  {
+    "id": "INTENT-006",
+    "input": "물건이 아직 안 왔습니다",
+    "expected": "delivery",
+    "evaluator": "exact_match"
+  }
+]
