@@ -1,10 +1,8 @@
 # AI Evaluation Lab
 
-LLM, RAG 및 AI Agent의 품질을 정량적으로 평가하고
-회귀를 탐지하기 위한 AI Evaluation 프로젝트입니다.
+LLM, RAG, AI Agent의 품질을 수치로 평가하고 성능 저하를 탐지하는 AI Evaluation 프로젝트입니다.
 
-현재 단계에서는 deterministic evaluation을 시작으로
-평가 데이터셋 설계와 자동화된 평가 구조를 구현합니다.
+현재는 결정론적 평가로 시작해 평가 데이터셋을 설계하고 자동화된 평가 구조를 구현합니다.
 
 ## Roadmap
 
